@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML Type="House Layout">
+    <Order No="20171129" DispDate="29.11.2017">
+        <Head />
+    </Order>
+    <House name="东易日盛">
+        <FloorPlan name="first" boundary="(-4117,3138);(-2240,3138);(-611,3138);(2768,3138);(2768,4);(1482,4);(1482,-2392);(2768,-2392);(2768,-6212);(-611,-6212);(-4117,-6212);(-4117,124)">
+            <u name="room" boundary="(-3877,-5972);(-3877,4);(-2120,4);(-2120,2898);(-731,2898);(-731,124);(-731,124);(-731,-2512);(-731,-2512);(-731,-5972)">
+                <Door name="单开门" boundary="(-2360,1832);(-2360,1032);(-1560,1032);(-1560,1832)" body="(-2360,1832);(-1560,1832)" backline="(-2360,1832);(-2360,1032)" connect="Porch;Bathroom" attribute="single" />
+                <Door name="单开门" boundary="(-1997,2898);(-1997,3998);(-897,3998);(-897,2898)" body="(-897,2898);(-897,3998)" backline="(-1997,2898);(-897,2898)" connect="Porch;Outside" attribute="single" />
+                <Door name="单开门" boundary="(-731,1339);(69,1339);(69,539);(-731,539)" body="(-731,539);(69,539)" backline="(-731,1339);(-731,539)" connect="Porch;Bedroom" attribute="single" />
+                <Door name="单开门" boundary="(-731,-1341);(69,-1341);(69,-2141);(-731,-2141)" body="(-731,-2141);(69,-2141)" backline="(-731,-1341);(-731,-2141)" connect="DiningRoom;Kitchen" attribute="single" />
+                <Door name="单开门" boundary="(-731,-4149);(69,-4149);(69,-4949);(-731,-4949)" body="(-731,-4949);(69,-4949)" backline="(-731,-4149);(-731,-4949)" connect="LivingRoom;MainBedroom" attribute="single" />
+                <Window name="普通窗" line="(-1404,-5972);(-3204,-5972)" />
+            </u>
+            <Bathroom name="卫生间" boundary="(-2360,244);(-3877,244);(-3877,2898);(-2360,2898)">
+                <Door name="单开门" boundary="(-2120,1832);(-2120,1032);(-2920,1032);(-2920,1832)" body="(-2120,1032);(-2920,1032)" backline="(-2120,1832);(-2120,1032)" connect="Porch;Bathroom" attribute="single" />
+            </Bathroom>
+            <Bedroom name="次卧" boundary="(-491,2898);(2528,2898);(2528,244);(1362,244);(1362,244);(-491,244)" attribute="guestroom">
+                <Window name="普通窗" line="(2528,244);(1482,244)" />
+                <Door name="单开门" boundary="(-491,1339);(-1291,1339);(-1291,539);(-491,539)" body="(-491,1339);(-1291,1339)" backline="(-491,1339);(-491,539)" connect="Porch;Bedroom" attribute="single" />
+            </Bedroom>
+            <Kitchen name="厨房" boundary="(1242,-2392);(-491,-2392);(-491,4);(1242,4)">
+                <Door name="单开门" boundary="(-491,-1341);(-1291,-1341);(-1291,-2141);(-491,-2141)" body="(-491,-1341);(-1291,-1341)" backline="(-491,-1341);(-491,-2141)" connect="DiningRoom;Kitchen" attribute="single" />
+                <Window name="普通窗" line="(1242,-2169);(1242,-1169)" />
+            </Kitchen>
+            <MainBedroom name="主卧" boundary="(-491,-2632);(1362,-2632);(1362,-2632);(2528,-2632);(2528,-5972);(-491,-5972)">
+                <Window name="普通窗" line="(2528,-5972);(2528,-4972)" />
+                <Window name="普通窗" line="(728,-5972);(2528,-5972)" />
+                <Door name="单开门" boundary="(-491,-3149);(-1291,-3149);(-1291,-3949);(-491,-3949)" body="(-491,-3149);(-1291,-3149)" backline="(-491,-3149);(-491,-3949)" connect="LivingRoom;MainBedroom" attribute="single" />
+            </MainBedroom>
+            <Porch name="过道" boundary="(-2120,2898);(-731,2898);(-731,4);(-2120,4)" >
+                <Border name="虚边界" line="(-2120,4);(-731,4)" connect="=DiningRoom;Porch"/>
+                <Door name="单开门" boundary="(-491,1339);(-1291,1339);(-1291,539);(-491,539)" body="(-491,1339);(-1291,1339)" backline="(-491,1339);(-491,539)" connect="Porch;Bedroom" attribute="single" />
+                <Door name="单开门" boundary="(-2120,1832);(-2120,1032);(-2920,1032);(-2920,1832)" body="(-2120,1032);(-2920,1032)" backline="(-2120,1832);(-2120,1032)" connect="Porch;Bathroom" attribute="single" />
+                <Door name="单开门" boundary="(-1997,2898);(-1997,3998);(-897,3998);(-897,2898)" body="(-897,2898);(-897,3998)" backline="(-1997,2898);(-897,2898)" connect="Porch;Outside" attribute="single" />
+            </Porch>
+            <DiningRoom name="餐厅" boundary="(-3877,4);(-731,4);(-731,-2512);(-3877,-2512)" >
+                <Door name="单开门" boundary="(-491,-1341);(-1291,-1341);(-1291,-2141);(-491,-2141)" body="(-491,-1341);(-1291,-1341)" backline="(-491,-1341);(-491,-2141)" connect="DiningRoom;Kitchen" attribute="single" />                
+                <Border name="虚边界" line="(-3877,-2512);(-731,-2512)" connect="Livingroom;DiningRoom" />
+                <Border name="虚边界" line="(-2120,4);(-731,4)" connect="=DiningRoom;Porch"/>
+            </DiningRoom>
+            <Livingroom name="客厅" boundary="(-731,-5972);(-3877,-5972);(-3877,-2512);(-731,-2512)" >
+                <Door name="单开门" boundary="(-491,-3149);(-1291,-3149);(-1291,-3949);(-491,-3949)" body="(-491,-3149);(-1291,-3149)" backline="(-491,-3149);(-491,-3949)" connect="LivingRoom;MainBedroom" attribute="single" />
+                <Border name="虚边界" line="(-3877,-2512);(-731,-2512)" connect="Livingroom;DiningRoom" />
+                <Window name="普通窗" line="(-1404,-5972);(-3204,-5972)" />
+            </Livingroom>
+        </FloorPlan>
+    </House>
+</XML>

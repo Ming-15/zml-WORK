@@ -1,0 +1,51 @@
+# -*- coding:utf-8 -*-
+KITCHEN_MAX_LEN = 3600
+KITCHEN_MIN_LEN = 1500
+# KITCHEN_MAX_WIDTH = 2100
+# KITCHEN_MIN_WIDTH = 1500
+
+CABINET_L = 600 # 地柜长度
+
+BASE_CORNER_W = (900, 1050, 1200) # 转角地柜
+MAX_DIS_CORNER_SINK_RAN = 1500 # 三角结构的最佳距离是900(菜板)+600转角
+
+REFRIGERATOR_W = 650 #冰箱
+
+RANGEHOOD_SINK_W = 900 #烟机或水槽
+
+SINGLE_CABINET_W = (400, 450, 500, 600) # 单门地柜宽度和抽屉地柜同
+SINGLE_CABINET_W_D = (800, 900, 1000, 1200)
+DOUBLE_CABINET_W = (900, 1200) #两门抽屉地柜
+
+ADJUSTING_PANEL_MAX = 150 #调节板
+
+PULL_BASKET_W = (150,200,300,350) #拉篮
+
+MIN_DIS_CABINET = 900 # 平行或U型布局时，相对地柜间最小距离
+MIN_DIS_REFR_SINK_RANG = 50 # 冰箱和水槽、烟机间最小距离
+
+KITCHEN_HANGING_H = 1500 # 厨房吊柜高度
+
+WIN_SIDES_D = 150 #窗两侧距离吊柜的距离
+
+HANGING_CABINET_L = 300 # 吊柜长度
+HANGING_CABINET_W = (300, 450)
+HANGING_CABINET_W_D = (600, 900)
+HANGING_BASE_CORNER_LW = (600, 750) # 转角吊柜
+HANGING_ADJUSTING_PANEL_MAX = 100 #吊柜调节板
+
+
+
+D1_MIN = 2400
+D1_MAX = 3500
+D2_TH1 = 1500
+D2_TH2 = 2100
+
+CROSS_D = 200  # 烟机柜与水槽柜错开最小距离/水槽柜距离冰箱最小距离
+
+SINK_RANK_MIN = 200# 烟机柜与水槽柜错开最小距离/水槽柜距离冰箱最小距离
+SINK_RANK_MAX = 900 #冰箱与水槽错开最大距离
+REF_SINK_MAX = 600 #冰箱与水槽柜最大间距
+
+DOOR_CONNECT = ['Bedroom', 'Balcony']#厨房门连接的区域
+

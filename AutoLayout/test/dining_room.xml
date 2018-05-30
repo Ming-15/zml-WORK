@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<XML Type="House Layout">
+  <House name="东易">
+    <FloorPlan boundary="(0, 0);(0, 4000);(2500,4000);(2500,0)" name="户型图">
+      <DiningRoom name="餐厅" boundary="(0, 0);(0, 4000);(2500,4000);(2500,0)">
+        <Border name="虚边界" line="(0,0);(0,2500)">
+          <a></a>
+        </Border>
+        <!--<Border name="虚边界" line="(1500,4000);(1500,0)">-->
+          <!--<a></a>-->
+        <!--</Border>-->
+        <!--<Border name="虚边界" line="(0,0);(1500,0)">-->
+          <!--<a></a>-->
+        <!--</Border>-->
+        <!--<Border name="虚边界" line="(0,4000);(1500,4000)">-->
+          <!--<a></a>-->
+        <!--</Border>-->
+        <!--<Door name="门" boundary="(0,0);(0,500);(500,500);(500,0)" backline="(0, 0);(0,500)">-->
+          <!--<a></a>-->
+        <!--</Door>-->
+        <!--<Window name="窗户" line="(1000,4000);(1500, 4000)">-->
+          <!--<a></a>-->
+        <!--</Window>-->
+      </DiningRoom>
+    </FloorPlan>
+  </House>
+</XML>

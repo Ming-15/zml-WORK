@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<XML Type="House Layout">
+  <House name="东易">
+    <FloorPlan boundary="(0, 0);(0, 4000);(5000,4000);(5000,0)" name="户型图">
+      <Livingroom name="客厅" boundary="(0, 0);(0, 4000);(5000,4000);(5000,0)">
+        <Border name="虚边界" line="(0,0);(4000,0)">
+          <a></a>
+        </Border>
+        <Window name="窗户" line="(0,4000);(3000, 4000)">
+          <a></a>
+        </Window>
+      </Livingroom>
+    </FloorPlan>
+  </House>
+</XML>
